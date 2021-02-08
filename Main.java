@@ -21,7 +21,7 @@ class Main {
     // Print message
     if (randNum <= 15)
       System.out.println("Ahoy mateys!");
-    else if (randNum > 20 && randNum < 42)
+    else if (randNum < 42 && randNum > 20)
       System.out.println("Cannonball!");
     else
       System.out.println("Look, a sea shanty!");
