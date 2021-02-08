@@ -11,17 +11,17 @@ class Main {
 
     // Generate number
     Random r = new Random();
-    int randNum = 1 + r.nextInt(50);
+    int randomNum = 1 + r.nextInt(50);
 
     // Print number and countdown
-    System.out.printf("The Random number is: %d%n", randNum);
-    for (int x = randNum; x >= 0; x--)       
+    System.out.printf("The Random number is: %d%n", randomNum);
+    for (int x = randomNum; x >= 0; x--)       
       System.out.println(x);
 
     // Print message
-    if (randNum <= 15)
+    if (randomNum <= 15)
       System.out.println("Ahoy mateys!");
-    else if (randNum < 42 && randNum > 20)
+    else if (randomNum < 42 && randomNum > 20)
       System.out.println("Cannonball!");
     else
       System.out.println("Look, a sea shanty!");
