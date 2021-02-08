@@ -15,9 +15,8 @@ class Main {
 
     // Print number and countdown
     System.out.printf("The Random number is: %d%n", randNum);
-    for (int x = randNum; x >= 0; x--) {
+    for (int x = randNum; x >= 0; x--)       
       System.out.println(x);
-    }
 
     // Print message
     if (randNum <= 15)
